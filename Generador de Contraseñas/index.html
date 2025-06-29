@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Generador de Contraseñas</title>
+</head>
+<body>
+    
+    <div class="contaiener">
+        <header class="tittleContainer">
+            <h1>Generador de Contraseñas</h1>
+        </header>
+
+        <section class="wrrapperContainer">
+            <div class="viewPasswordGenerate">
+                <button id="viewPasswordHCheck">P4$SWOrD:</button>
+                <button><i class="ri-file-copy-line"></i></button>
+            </div>
+
+            <div class="validationOptionsGeneratePassword">
+                <div class="characterLengthContainer">
+                    <div class="titleCharacterLenght">
+                        <span>Longitud de Caracteres</span>
+                        <button class="lengthCharacter">0</button>
+                    </div>
+
+                    <div class="inputRangeCharacteres">
+                        <input type="range" name="" id="rangeCharacteres" min="6" max="20" >
+                    </div>
+                </div>
+
+                <div class="containerIncludeTipsPassword">
+                    <div class="includePassword">
+                        <button class="includeFeatureButton"></button>
+                        <span>Incluir letras Mayúsculas</span>
+                    </div>
+                    <div class="includePassword">
+                        <button class="includeFeatureButton"></button>
+                        <span>Incluir letras Minusculas</span>
+                    </div>
+                    <div class="includePassword">
+                        <button class="includeFeatureButton"></button>
+                        <span>Incluir Numeros</span>
+                    </div>
+                    <div class="includePassword">
+                        <button class="includeFeatureButton"></button>
+                        <span>Incluir Simbolos</span>
+                    </div>
+                </div>
+
+                <div class="strengthPasswordContainer">
+                    <span>Fortaleza</span>
+                    <div class="lengthStrengthButtons">
+                        <div class="rangeOfStrength">
+                            <span class="rangeStrengthText"></span>
+                        </div>
+
+                        <div class="countRangeStrengthButtons">
+                            <button class="countStrength"></button>
+                            <button class="countStrength"></button>
+                            <button class="countStrength"></button>
+                            <button class="countStrength"></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="generateCheckButton">
+                    <button class="btnGeneratePassword">Generar <i class="ri-arrow-right-fill"></i></button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+body{
+    box-sizing: border-box;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+    background-color: #000;
+    color: #fff;
+}
+
+.contaiener{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 600px;
+    transition: all .3s ease;
+}
+
+.tittleContainer h1{
+    color: #fff;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.wrrapperContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: inherit;
+    padding: 12px;
+}
+
+.viewPasswordGenerate{
+    background-color: rgba(53, 49, 49, 0.884);
+    opacity: 2;
+    padding: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    width: inherit;
+}
+
+.viewPasswordGenerate input{
+    background-color: transparent;
+    border: none;
+    font-size: 29px;
+    width: 100%;;
+    outline: none;
+    color: rgb(122, 248, 122);
+    opacity: 0.6;
+}
+
+.viewPasswordGenerate button{
+    background-color: transparent;
+    border: none;
+    font-size: 28px;
+    color: rgb(122, 248, 122);
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.validationOptionsGeneratePassword{
+    background-color: rgba(53, 49, 49, 0.884);
+    opacity: 2;
+    width: inherit;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.characterLengthContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.titleCharacterLenght{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleCharacterLenght span{
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.titleCharacterLenght button{
+    background-color: transparent;
+    border: 2px solid rgb(122, 248, 122);
+    font-size: 24px;
+    color: rgb(122, 248, 122);
+    border-radius: 50px;
+    padding: 20px 4px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputRangeCharacteres input{
+    width: 100%;
+    cursor: grab;
+    height: 2px;
+    padding: 2px;
+    border-radius: 12px;
+    margin-top: 18px;
+}
+
+.inputRangeCharacteres input::-webkit-slider-runnable-track{
+    background-color: rgb(32, 27, 27);
+    border-radius: 12px;
+}
+
+.inputRangeCharacteres input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Crucial para eliminar el estilo por defecto */
+    background: rgb(255, 255, 255); 
+    height: 4em; 
+    width: 4em;  
+    padding: 16px;
+}
+
+.containerIncludeTipsPassword{
+    margin-top: 24px;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.includePassword{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.includePassword button{
+    border: 3px solid #fff;
+    /* background-color: rgba(0, 0, 0, 0); */
+    width: 28px;
+    height: 28px;
+    font-size: 25px;
+    padding: 2px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.includePassword button:hover{
+    transition: all .3s ease;
+    background-color: rgb(122, 248, 122);
+}
+
+.includePassword span{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.strengthPasswordContainer{
+    margin-top: 32px;
+    margin-left: 8px;
+    background-color: rgb(22, 21, 21);
+    padding: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.strengthPasswordContainer span{
+    font-size: 24px;
+    color: rgb(112, 109, 109);
+    opacity: 2;
+}
+
+.strengthPasswordContainer button{
+    width: 14px;
+    height: 32px;
+    padding: 2px;
+    border: 3px solid #fff;
+   
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.strengthPasswordContainer button:hover{
+    transition: all .3s ease;
+    background-color: rgb(122, 248, 122);
+}
+
+.lengthStrengthButtons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.rangeOfStrength span{
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.generateCheckButton{
+    margin-top: 24px;
+    margin-left: 8px;
+    width: inherit;
+}
+
+.generateCheckButton button{
+    width: 100%;
+    padding: 24px;
+    background-color: rgb(167, 255, 167);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.generateCheckButton button:hover{
+    transition: all .3s ease;
+    background-color: rgb(122, 248, 122);
+}
+
+.clickIncludeButton{
+    background-color:  rgb(122, 248, 122);
+}
